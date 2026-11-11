@@ -4,8 +4,7 @@
 
 > **Repositorio didáctico de aprendizaje**: compendio teórico-práctico de la **Unidad 1: Análisis de Lógica Combinacional con Diseño Clásico** (Semanas 1 a 4) de la asignatura *Diseño de Circuitos Digitales*, Carrera de Computación, Universidad Nacional de Loja.
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/be930018-392d-46e4-8b56-f8b648c9c27c" />
-
+<img src="https://github.com/user-attachments/assets/be930018-392d-46e4-8b56-f8b648c9c27c" width="900" alt="Descripción">
 
 ## Descripción general
 
