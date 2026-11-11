@@ -19,12 +19,12 @@ Este repositorio reúne los fundamentos del diseño clásico de circuitos combin
 - Diseñar y verificar bloques aritméticos combinacionales: semisumador, sumador completo, sumador paralelo, restador y comparador.
 
 ## Menú de navegación
-| Semana | Temas clave | Práctica | Enlace |
+| Semana | Temas clave | |Enlace |
 | :---: | :--- | :---: | :---: |
-| 1 | ![Sistemas numéricos](https://img.shields.io/badge/-Sistemas%20num%C3%A9ricos-blue) ![Complemento a dos](https://img.shields.io/badge/-Complemento%20a%20dos-blue) ![BCD/Gray/ASCII](https://img.shields.io/badge/-BCD%20%7C%20Gray%20%7C%20ASCII-blue) ![74LS](https://img.shields.io/badge/-Compuertas%2074LS-blue) | APE 01 | [Abrir](docs/semana-01.md) |
-| 2 | ![Postulados](https://img.shields.io/badge/-Postulados%20y%20De%20Morgan-orange) ![SOP/POS](https://img.shields.io/badge/-SOP%20%7C%20POS-orange) ![Alarma](https://img.shields.io/badge/-Caso%20alarma%203%20sensores-orange) | APE 02 | [Abrir](docs/semana-02.md) |
-| 3 | ![Karnaugh](https://img.shields.io/badge/-Mapas%20de%20Karnaugh-purple) ![Don't care](https://img.shields.io/badge/-Condiciones%20indiferentes-purple) ![NAND/NOR](https://img.shields.io/badge/-NAND%20%7C%20NOR%20universales-purple) | APE 03 | [Abrir](docs/semana-03.md) |
-| 4 | ![Sumadores](https://img.shields.io/badge/-Semisumador%20y%20sumador%20completo-red) ![Ripple Carry](https://img.shields.io/badge/-Ripple%20Carry-red) ![Resta C2](https://img.shields.io/badge/-Resta%20C2-red) ![Comparador y ALU](https://img.shields.io/badge/-Comparador%20y%20ALU-red) | APE 04 | [Abrir](docs/semana-04.md) |
+| 1 | ![Sistemas numéricos](https://img.shields.io/badge/-Sistemas%20num%C3%A9ricos-blue) ![Complemento a dos](https://img.shields.io/badge/-Complemento%20a%20dos-blue) ![BCD/Gray/ASCII](https://img.shields.io/badge/-BCD%20%7C%20Gray%20%7C%20ASCII-blue) ![74LS](https://img.shields.io/badge/-Compuertas%2074LS-blue) | 👉 | [Abrir](docs/semana-01.md) |
+| 2 | ![Postulados](https://img.shields.io/badge/-Postulados%20y%20De%20Morgan-orange) ![SOP/POS](https://img.shields.io/badge/-SOP%20%7C%20POS-orange) ![Alarma](https://img.shields.io/badge/-Caso%20alarma%203%20sensores-orange) | ➡️ | [Abrir](docs/semana-02.md) |
+| 3 | ![Karnaugh](https://img.shields.io/badge/-Mapas%20de%20Karnaugh-purple) ![Don't care](https://img.shields.io/badge/-Condiciones%20indiferentes-purple) ![NAND/NOR](https://img.shields.io/badge/-NAND%20%7C%20NOR%20universales-purple) | 👉 | [Abrir](docs/semana-03.md) |
+| 4 | ![Sumadores](https://img.shields.io/badge/-Semisumador%20y%20sumador%20completo-red) ![Ripple Carry](https://img.shields.io/badge/-Ripple%20Carry-red) ![Resta C2](https://img.shields.io/badge/-Resta%20C2-red) ![Comparador y ALU](https://img.shields.io/badge/-Comparador%20y%20ALU-red) | ➡️ | [Abrir](docs/semana-04.md) |
 
 ## Referencias bibliográficas (fuentes del sílabo)
 
@@ -32,3 +32,11 @@ Este repositorio reúne los fundamentos del diseño clásico de circuitos combin
 - Bégin, G. (2023). *Circuits logiques combinatoires et séquentiels*.
 - Pedroni, V. A. (2020). *Circuit Design with VHDL*. The MIT Press.
 - Sílabo de la asignatura *Diseño de Circuitos Digitales* (2026-2027), Universidad Nacional de Loja.
+  
+##  Declaración de Uso de Inteligencia Artificial
+
+Este repositorio ha sido desarrollado incorporando herramientas de Inteligencia Artificial como apoyo metodológico y de estructuración:
+- **Google Gemini:** Utilizado como asistente de desarrollo para estructurar, dar formato y organizar la documentación técnica en lenguaje Markdown.
+- **NotebookLM:** Utilizado como herramienta de análisis documental para sintetizar, organizar y generar contenidos académicos basados estrictamente en el sílabo oficial de la asignatura.
+
+*Nota: Todo el contenido técnico generado ha sido revisado, verificado y adaptado para cumplir con los requerimientos del proyecto.*
