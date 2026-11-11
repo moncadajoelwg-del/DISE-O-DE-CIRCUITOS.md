@@ -4,11 +4,12 @@
 
 > **Repositorio didáctico de aprendizaje**: compendio teórico-práctico de la **Unidad 1: Análisis de Lógica Combinacional con Diseño Clásico** (Semanas 1 a 4) de la asignatura *Diseño de Circuitos Digitales*, Carrera de Computación, Universidad Nacional de Loja.
 
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/be930018-392d-46e4-8b56-f8b648c9c27c" />
+
+
 ## Descripción general
 
 Este repositorio reúne los fundamentos del diseño clásico de circuitos combinacionales: desde la representación de la información y las compuertas lógicas, pasando por el álgebra de Boole y la optimización con mapas de Karnaugh, hasta los bloques aritméticos (sumadores, restador y comparador) que forman el núcleo de una ALU.
-
-<img width="1000" height="667" alt="image" src="https://github.com/user-attachments/assets/838a927c-584e-4732-bc3c-30229b61c213" />
 
 ## Objetivos académicos
 
