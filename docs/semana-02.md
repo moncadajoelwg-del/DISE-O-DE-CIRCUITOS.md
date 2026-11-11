@@ -8,6 +8,8 @@
 
 El diseño clásico exige traducir enunciados en lenguaje natural sin ambigüedad hacia tablas de verdad precisas. Cada combinación de variables de entrada produce un valor de salida unívoco.
 
+<img src="https://github.com/user-attachments/assets/7c1561d0-93b3-41f3-ab02-e9ce47312c4a" width="600" alt="Descripción del circuito">
+
 ## 2.2 Postulados, teoremas del álgebra de Boole y leyes de De Morgan
 
 ### Teoremas fundamentales
@@ -26,6 +28,8 @@ $$\overline{A \cdot B} = \bar{A} + \bar{B}$$
 
 $$\overline{A + B} = \bar{A} \cdot \bar{B}$$
 
+<img src="https://github.com/user-attachments/assets/b491ea01-e670-46a5-9f7e-3a1ae6f0f11c" width="600" alt="Descripción del circuito">
+
 ## 2.3 Formas canónicas: suma de productos (SOP) y producto de sumas (POS)
 
 ### Minitérminos ($m_i$) y maxitérminos ($M_i$)
@@ -37,6 +41,8 @@ $$F = \sum m(i_1, i_2, \dots)$$
 - **Maxitérmino ($M_i$)**: suma de todas las variables en forma directa (si la variable vale 0) o complementada (si vale 1). La forma canónica POS es el producto de los maxitérminos donde la función es 0:
 
 $$F = \prod M(j_1, j_2, \dots)$$
+
+<img src="https://github.com/user-attachments/assets/511863b0-3106-453d-a6b6-e392190654dd" width="600" alt="Descripción del circuito">
 
 ## 2.4 Caso de estudio resuelto: sistema de alarma de 3 sensores
 
@@ -63,10 +69,7 @@ $$F = \sum m(3, 5, 6, 7) = \bar{A}BC + A\bar{B}C + AB\bar{C} + ABC$$
 
 $$F = AB(C + \bar{C}) + C(A\bar{B} + \bar{A}B) = AB + C(A \oplus B) = AB + AC + BC$$
 
-## 2.5 Práctica experimental APE N.º 02
-
-- **Objetivo**: formas canónicas y simplificación algebraica.
-- **Actividad**: montaje simulado del circuito canónico frente al simplificado. Se contrasta el número de compuertas e integrados requeridos, comprobando que ambas versiones satisfacen exactamente la misma tabla de verdad.
+<img src="https://github.com/user-attachments/assets/80083505-3088-4d2c-a84f-a176e9074127" width="600" alt="Descripción del circuito">
 
 ---
 
