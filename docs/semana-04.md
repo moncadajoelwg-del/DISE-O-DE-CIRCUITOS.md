@@ -67,20 +67,4 @@ Los bloques combinacionales de suma, resta y comparación forman el núcleo de l
 
 ---
 
-## Cuestionario de autoevaluación resuelto (Semanas 1 a 4)
-
-1. **¿Por qué el complemento a dos simplifica la arquitectura del hardware aritmético?**
-   *Respuesta*: porque permite reutilizar la misma red de sumadores paralelos para efectuar tanto sumas como restas, convirtiendo la resta en una adición con el operando invertido y un acarreo inicial $C_{in} = 1$.
-
-2. **¿Cuál es la diferencia principal entre un minitérmino y un maxitérmino?**
-   *Respuesta*: un minitérmino es un producto lógico que toma el valor 1 para una única combinación de variables; un maxitérmino es una suma lógica que toma el valor 0 para una única combinación de variables.
-
-3. **¿Cómo se trata una condición indiferente ("Don't Care") en un mapa de Karnaugh?**
-   *Respuesta*: se evalúa como 1 o como 0, según convenga para formar un grupo adyacente más grande de unos y reducir el número de compuertas de la expresión final.
-
-4. **¿Cuál es la causa del retardo de propagación en un sumador paralelo de tipo Ripple Carry?**
-   *Respuesta*: la necesidad de que el acarreo de cada etapa ($C_{out}$) se estabilice antes de que la siguiente etapa determine su resultado definitivo de suma y acarreo.
-
----
-
 [🏠 Volver a la Portada](../README.md) | [◀ Semana Anterior](semana-03.md)
