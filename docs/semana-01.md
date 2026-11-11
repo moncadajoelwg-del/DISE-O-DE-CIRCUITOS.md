@@ -8,6 +8,9 @@
 
 En los sistemas de computación presenciales y de arquitectura moderna, la información se representa físicamente mediante dos estados eléctricos diferenciados (lógica positiva: nivel alto $V_{DD} / 5\text{V}$ como '1' y nivel bajo $GND / 0\text{V}$ como '0'). La necesidad de fundamentar la construcción de hardware parte de comprender que todo programa ejecutable se traduce en última instancia a señales eléctricas manipuladas por redes combinacionales.
 
+<img width="641" height="456" alt="image" src="https://github.com/user-attachments/assets/5c1a418b-9a84-41f1-873a-4a0bb35d90a2" />
+
+
 ## 1.2 Sistemas numéricos y conversión de bases
 
 Los sistemas de numeración posicionales binario (base 2), octal (base 8) y hexadecimal (base 16) constituyen el lenguaje formal de representación de datos en hardware.
@@ -24,6 +27,8 @@ Los sistemas de numeración posicionales binario (base 2), octal (base 8) y hexa
 | Decimal | 10 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 | $(13.25)_{10}$ |
 | Hexadecimal | 16 | 0-9, A, B, C, D, E, F | $(D.4)_{16}$ |
 
+<img src="https://github.com/user-attachments/assets/9935529b-ecde-4444-90c9-654c4d357ba0" width="600" alt="Descripción">
+
 ## 1.3 Aritmética binaria, complemento a dos y códigos
 
 ### Representación en complemento a dos ($C_2$)
@@ -39,6 +44,8 @@ Para representar números enteros con signo en un ancho de palabra de $n$ bits:
 - **Código Gray**: código no ponderado donde dos números consecutivos difieren en un único bit, minimizando errores de transición en sensores y codificadores.
 - **ASCII**: código de 7 u 8 bits para representación de caracteres alfanuméricos y de control.
 
+<img src="https://github.com/user-attachments/assets/1fe25fd3-6590-4cd6-a2de-a5ee8db3b778" width="600" alt="Descripción">
+
 ## 1.4 Compuertas lógicas y hojas de datos (familia 74LS)
 
 Las compuertas lógicas son los bloques constitutivos fundamentales. A continuación se presenta la tabla de verdad unificada para las compuertas de dos entradas:
@@ -52,10 +59,7 @@ Las compuertas lógicas son los bloques constitutivos fundamentales. A continuac
 
 > **Nota de lectura de hojas de datos (74LS)**: en circuitos integrados de la familia TTL 74LS (por ejemplo, 74LS08 para AND, 74LS02 para NOR, 74LS00 para NAND, 74LS86 para XOR), el pin de alimentación $V_{CC}$ corresponde típicamente al pin 14 y la masa $GND$ al pin 7.
 
-## 1.5 Práctica experimental APE N.º 01
-
-- **Objetivo**: reconocimiento del entorno de simulación lógica de código abierto y comprobación experimental de compuertas lógicas.
-- **Procedimiento**: emplazamiento de fuente de voltaje, interruptores de entrada, sondas lógicas de salida y circuitos integrados de la familia 74LS. Se verifica experimentalmente la tabla de verdad de cada compuerta y se elabora el informe técnico correspondiente.
+<img src="https://github.com/user-attachments/assets/618123dd-c84d-435d-baed-ebf31d2dcc3b" width="600" alt="Descripción">
 
 ---
 
