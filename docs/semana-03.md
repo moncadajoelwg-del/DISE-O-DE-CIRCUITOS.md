@@ -24,9 +24,13 @@ El mapa de Karnaugh es un método gráfico de representación donde las celdas a
 3. Cada grupo debe ser lo más grande posible para eliminar la mayor cantidad de variables.
 4. Todos los 1s de la función deben estar contenidos en al menos un grupo.
 
+<img src="https://github.com/user-attachments/assets/b2b44bbd-a2f7-420e-9d0b-8502c82bf351" width="600" alt="Ejemplo de mapa de Karnaugh">
+
 ## 3.2 Condiciones indiferentes ("Don't Care": $d$ o $X$)
 
 Las condiciones indiferentes corresponden a combinaciones de entrada que nunca ocurren físicamente o cuyas salidas no importan. Se marcan como $X$ en el mapa y pueden ser agrupadas con los 1s cuando ayudan a formar grupos más grandes, o ignoradas cuando no aportan a la simplificación.
+
+<img src="https://github.com/user-attachments/assets/46716401-e5fc-4176-a131-34e0ba80e1f2" width="600" alt="Ejemplo de mapa de Karnaugh">
 
 ## 3.3 Universalidad de compuertas NAND y NOR
 
@@ -38,11 +42,8 @@ Las compuertas NAND y NOR son **universales** porque cualquier función booleana
 2. Aplicar doble complementación a toda la expresión: $F = \overline{\overline{\text{SOP}}}$.
 3. Aplicar los teoremas de De Morgan para convertir las operaciones de suma externa e inversores a compuertas NAND de múltiples entradas.
 
-## 3.4 Práctica experimental APE N.º 03
+<img src="https://github.com/user-attachments/assets/8dc77b85-d8a0-48ee-a729-c2d4be724fe6" width="600" alt="Ejemplo de mapa de Karnaugh">
 
-- **Objetivo**: optimización de hardware mediante mapas de Karnaugh.
-- **Desarrollo**: simulación funcional comparativa antes y después de la minimización. Conversión del circuito resultante a la familia universal NAND, verificando la reducción en el conteo total de CI y el consumo de área.
-
----
+--- 
 
 [🏠 Volver a la Portada](../README.md) | [◀ Semana Anterior](semana-02.md) | [Siguiente Semana ▶](semana-04.md)
